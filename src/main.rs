@@ -42,7 +42,7 @@ impl Database {
         }
         //parse the string
         //populate our map
-        Ok(Database { map: map })
+        Ok(Database { map })
     }
 
     fn insert(&mut self, key: String, value: String) {
